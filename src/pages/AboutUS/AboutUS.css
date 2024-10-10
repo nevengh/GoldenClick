@@ -45,3 +45,9 @@
 .about:dir(rtl){
     flex-direction: row-reverse;
 }
+
+@media(max-width:540px){
+    .about_img img{
+        width: 90%;
+    }
+}
