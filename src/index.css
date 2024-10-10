@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: var(--bs-dark);
+  color: var(--bs-white);
+  font-family: var(--font-family);
+}
+
+:root{
+  --color-main: #EEEE22;
+  --color-primary: #EEEE22;
+  --color-secondary: #BC901A;
+  --color-ternary: #BC8A00;
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  /* --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; */
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --italic_font:"Shadows Into Light", cursive;
+  --font-family:"Montserrat", sans-serif;
+}
+
+/* linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-ternary)) */
+html {
+  scroll-behavior: smooth;
+}
+body:dir(rtl){
+  font-family: monospace;
+}
+#about,
+#services,
+#home {
+  scroll-margin-top: 100px; /* Adjust this value based on your header height */
+}
